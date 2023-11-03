@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root{
+    --corbg: #303030;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.cabeçalho{
+    background-color: var(--corbg);
+    color: white;
+    width: 100vw;
+    height: 40vh;
+    font-size: 1.4em;
+    padding: 3rem 3rem 5rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cabeçalho-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cabeçalho-text_sub{
+    font-size: 1rem;
+}
+
+.numbers{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numbers-container_number{
+    font-size: 2.5em;
+}
+
+.numbers-container_text{
+    font-size: 1.3em;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+}
+
+.content-text{
+    width: 60%;
+    margin-left: 5em;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.content-text_title{
+    font-size: 2.3em;
+    margin-bottom: 1em;
+}
+
+.content-text_text{
+    font-size: 1.3em;
+}
+
+.content-image{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-image img{
+    width: 100%;
+}
+
+.contato{
+    background-color: var(--corbg);
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-container_title{
+    font-size: 2em;
+    margin: 2em 0 .5em;
+}
+
+.contato-container_formulario{
+    width: 80%;
+}
+
+.formulario-container{
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.formulario-container input{
+    height: 3em;
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.formulario-botao{
+    margin-top: 3em;
+}
+
+.formulario-botao button{
+    background-color: #C07212;
+    color: white;
+    font-size: 1.8em;
+    padding: .5em 1em;
+    margin: auto;
+    display: block;
+    box-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
