@@ -55,7 +55,7 @@ html{
 main{
     width: 90%;
     margin: auto;
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: center;
     text-align: center;
