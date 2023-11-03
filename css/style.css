@@ -20,7 +20,7 @@ html{
     background-color: var(--corbg);
     color: white;
     width: 100vw;
-    height: 40vh;
+    height: 300px;
     font-size: 1.4em;
     padding: 3rem 3rem 5rem;
     display: flex;
@@ -55,7 +55,7 @@ html{
 main{
     width: 90%;
     margin: auto;
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -100,7 +100,7 @@ main{
 .contato{
     background-color: var(--corbg);
     color: white;
-    height: 80vh;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
