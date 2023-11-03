@@ -16,7 +16,7 @@ html{
     overflow-x: hidden;
 }
 
-.cabeçalho{
+.cabecalho{
     background-color: var(--corbg);
     color: white;
     width: 100vw;
@@ -27,13 +27,13 @@ html{
     align-items: flex-end;
 }
 
-.cabeçalho-text{
+.cabecalho-text{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.cabeçalho-text_sub{
+.cabecalho-text_sub{
     font-size: 1rem;
 }
 
@@ -53,16 +53,15 @@ html{
 }
 
 main{
-    width: 90%;
-    margin: auto;
     height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
 }
 
 .content{
     height: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;

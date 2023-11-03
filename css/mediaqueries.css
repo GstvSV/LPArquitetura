@@ -1,0 +1,63 @@
+@media (max-width: 700px){
+
+    .cabecalho{
+        text-align: center;
+        padding: 30px 30px 60px;
+    }
+
+    .cabecalho-text_title{
+        font-size: 1.7em;
+    }
+
+    .numbers{
+        flex-direction: column;
+        min-width: 300px;
+        padding-bottom: 40px;
+    }
+
+    .numbers-container{
+        padding-bottom: 50px;
+        width: 300px;
+    }
+
+    main{
+        background-image: url('../assets/images/arquitetura.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 500px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0 50px;
+    }
+
+    .content{
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        height: 500px;
+        padding: 0 5px 100px;
+        margin: 0 auto;
+
+    }
+
+    .content-text{
+        margin: 0 auto;
+    }
+
+    .content-text_title{
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .content-text_text{
+        font-size: 1.4em;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .contato-container_title{
+        text-align: center;
+    }
+}
